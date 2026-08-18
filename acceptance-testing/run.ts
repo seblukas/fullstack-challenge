@@ -10,9 +10,9 @@
  * Output: printed to stdout AND written to acceptance-testing/results/
  */
 
-import express from 'express';
 import fs from 'node:fs';
 import path from 'node:path';
+import express from 'express';
 import request from 'supertest';
 import { errorHandler } from '../src/error-handler.middleware';
 import modernRoutes from '../src/modern/routes/membership.routes';

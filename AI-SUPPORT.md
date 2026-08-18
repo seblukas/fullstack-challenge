@@ -6,3 +6,4 @@
 - Used Claude Code to answer some questions during coding
 - Used Claude Code to generate smaller pieces of code which require less logic (models based on JSON for instance)
 - Used Claude Code to setup biome
+- Used Claude Code to review diagram for task 2

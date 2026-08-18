@@ -2,8 +2,8 @@ import express from 'express';
 import request, { type Test } from 'supertest';
 import type TestAgent from 'supertest/lib/agent';
 import { errorHandler } from '../error-handler.middleware';
-import membershipRoutes from '../modern/routes/membership.routes';
 import FileSystemMembershipRepository from '../modern/persistance/FileSystemMembershipRepository';
+import membershipRoutes from '../modern/routes/membership.routes';
 import {
     cashPriceAbove100Request,
     expiredMembershipRequest,

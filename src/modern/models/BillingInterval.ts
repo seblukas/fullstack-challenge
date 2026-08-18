@@ -10,13 +10,13 @@ export default class BillingInterval {
         }
 
         if (this.interval === 'yearly') {
-            let monthPerYear = 12;
+            const monthPerYear = 12;
             result.setMonth(date.getMonth() + count * monthPerYear);
             return result;
         }
 
         if (this.interval === 'weekly') {
-            let daysPerWeek = 7;
+            const daysPerWeek = 7;
             result.setDate(date.getDate() + count * daysPerWeek);
             return result;
         }
