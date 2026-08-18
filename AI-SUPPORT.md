@@ -1,0 +1,8 @@
+- Used Claude Code to summarize exercise and code base and write `CLAUDE.md`
+- Used Claude Code to write integration tests
+- Used Claude Code to write unit tests
+- Used Claude Code to write acceptance test script
+- Used Claude Code to review code and implement some suggestions
+- Used Claude Code to answer some questions during coding
+- Used Claude Code to generate smaller pieces of code which require less logic (models based on JSON for instance)
+- Used Claude Code to setup biome
